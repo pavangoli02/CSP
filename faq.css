@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-masthead .nav-link {
+  color: black;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: black;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: black;
+  border-bottom-color: black;
+}
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color:black;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+
+.hero{
+    height:55vh;
+    background: url('./images/ffaq.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.svg{
+    position: absolute;
+    top: 40.999%;
+}
+
+
+.fbg{
+  background-color: #49aaca;
+}
+
+
+.wrapper{
+  max-width: 75%;
+  margin: auto;
+
+}
+
+.wrapping{
+  margin: 1.5rem 0;
+  text-align: center;
+  font-family: 'Lilita One', cursive;
+
+}
+
+.accordion{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  border-color: green;
+  outline: green;
+}
+
+.accordion i{
+  font-size: 20px;
+}
+
+.panel{
+  padding: 0 2rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.2rem;
+  background-color: white;
+  overflow: hidden;
+  background-color: #f1f7f5;
+  display: none;
+}
+
+.pannel p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+
+
+.faq {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+
+.faq.active {
+  border: none;
+}
+
+.faqw{
+  position: absolute;
+  top: 39%;
+}
+div .faq{
+    border: 2px solid aquamarine;
+}
+div>.active,.panel{
+background-color: aquamarine;
+}
+
+
+@media  (min-width:0px) and (max-width:576px) {
+  .hero{
+    background-image: url(./images/question-mark-yellow-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 350px
+  }
+  .svg{
+    position: absolute;
+    top: 27.3%;
+}
+  
+}
+
+@media (min-width:577px) and (max-width:768px) {
+  .hero{
+    background-image: url(./images/question-mark-yellow-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 350px
+  }
+  .svg{
+    position: absolute;
+    top: 27.2%;
+}
+  
+}
+
+@media (min-width:769) and (max-width:992px) {
+  .hero{
+    background-image: url(./images/question-mark-yellow-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 350px
+  }
+  .svg{
+    position: absolute;
+    top: 27.3%;
+}
+  
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+  .svg{
+    position: absolute;
+    top: 45.6%;
+}
+  
+}
+
+@media (min-width:1201px) and (max-width:1400px) {
+  .svg{
+    position: absolute;
+    top: 45.6%;
+}
+  
+}
+
+@media (min-width:1401px){
+  .svg{
+    position: absolute;
+    top: 45.6%;
+}
+  
+}

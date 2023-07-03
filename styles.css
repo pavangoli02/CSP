@@ -1,0 +1,106 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Tangerine:wght@700&display=swap');
+
+.hero{
+  background-image: url(./images/bg5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+
+.content{
+  background-color: rgba(144, 238, 144,0.3);
+  border-radius: 0.5%;
+  height: 200px;
+  width: 90%;
+  margin: 0px auto;
+  border-color: green;
+  outline: green;
+  
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.rleaf{
+  position: absolute;
+  
+}
+
+.lleaf{
+  position: absolute;
+  left: 90%;
+}
+
+
+.nav-masthead .nav-link {
+    color: black;
+    border-bottom: .25rem solid transparent;
+  }
+  
+  .nav-masthead .nav-link:hover,
+  .nav-masthead .nav-link:focus {
+    border-bottom-color: black;
+  }
+  
+  .nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
+  
+  .nav-masthead .active {
+    color: black;
+    border-bottom-color: black;
+  }
+  .nav-masthead .nav-link:hover,
+  .nav-masthead .nav-link:focus {
+    border-bottom-color:black;
+  }
+  
+  .nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
+  
+  .nav-masthead .active {
+    color: black;
+    border-bottom-color: black;
+  }
+
+  .cover-container {
+    max-width: 42em;
+  }
+
+  main{
+    display: block;
+  }
+
+ .font{
+  color: #005800;
+  font-weight: bolder;
+  font-family: 'Permanent Marker', ;
+ }
+
+ .fnfam{
+  font-family: 'Averia Serif Libre', cursive;
+ }
+
+ .mb{
+  margin-bottom: 0px;
+ }
+
+ .style{
+  margin-top: 110px;
+}
+
+@media (min-width:0px) and (max-width:576px){
+  .style{
+    margin-top: 40px;
+  }
+}
+
+
